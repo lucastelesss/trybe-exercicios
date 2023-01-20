@@ -1,0 +1,51 @@
+div:active {
+    border: 3px solid black;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+#cor-primaria {
+    background-color: red;
+}
+
+#cor-secundaria {
+    background-color: green;
+}
+
+#cor-complementar {
+    background-color: purple;
+    height: 200px;
+}
+
+#cor-escura {
+    background-color: darkblue;
+}
+
+#cor-clara {
+    background-color: lightskyblue;
+}
+
+
+
+#pri-h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+#sec-h3 {
+    color: aliceblue;
+}
+
+#ter-h3 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+#qua-h3 {
+    text-align: center;
+    color: lightskyblue;
+}
+
+#qui-h3 {
+font-style: italic;
+}
