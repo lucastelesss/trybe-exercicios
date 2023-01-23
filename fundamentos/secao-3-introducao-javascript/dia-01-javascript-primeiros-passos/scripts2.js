@@ -51,3 +51,26 @@
 //     console.log(ang1 + ang2 + ang3 == 180)
 // }
 
+let peca = "CAVALO";
+
+switch(peca.toLowerCase()) {
+    case "torre":
+        console.log("lado, frente e trás");
+        break;
+    case "cavalo":
+        console.log("forma de L");
+        break;
+    case "bispo":
+        console.log("diagonal");
+        break;
+    case "rei":
+        console.log("Uma casa para qualquer lado");break;                
+    case "rainha":
+        console.log("quantas casas quiser para qualquer lado");
+        break; 
+    case "peão":
+        console.log("uma casa para frente e uma diaginal quando houver uma peça rival");
+        break; 
+   default:
+        console.log("Peça inválida");
+}    
