@@ -39,7 +39,15 @@
 //     console.log("zero")
 // }
 
-let ang1 = 180;
-let ang2 = 180;
-let ang3 = 180;
+// let ang1 = 60;
+// let ang2 = 60;
+// let ang3 = 61;
+
+// let trianguloValido;
+
+// if(ang1 + ang2 + ang3 == 180) {
+//     console.log(ang1 + ang2 + ang3 == 180)
+// } else {
+//     console.log(ang1 + ang2 + ang3 == 180)
+// }
 
