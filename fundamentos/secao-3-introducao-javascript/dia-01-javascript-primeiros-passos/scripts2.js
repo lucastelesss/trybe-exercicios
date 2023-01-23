@@ -53,24 +53,42 @@
 
 let peca = "CAVALO";
 
-switch(peca.toLowerCase()) {
-    case "torre":
-        console.log("lado, frente e trás");
-        break;
-    case "cavalo":
-        console.log("forma de L");
-        break;
-    case "bispo":
-        console.log("diagonal");
-        break;
-    case "rei":
-        console.log("Uma casa para qualquer lado");break;                
-    case "rainha":
-        console.log("quantas casas quiser para qualquer lado");
-        break; 
-    case "peão":
-        console.log("uma casa para frente e uma diaginal quando houver uma peça rival");
-        break; 
-   default:
-        console.log("Peça inválida");
-}    
+// switch(peca.toLowerCase()) {
+//     case "torre":
+//         console.log("lado, frente e trás");
+//         break;
+//     case "cavalo":
+//         console.log("forma de L");
+//         break;
+//     case "bispo":
+//         console.log("diagonal");
+//         break;
+//     case "rei":
+//         console.log("Uma casa para qualquer lado");break;                
+//     case "rainha":
+//         console.log("quantas casas quiser para qualquer lado");
+//         break; 
+//     case "peão":
+//         console.log("uma casa para frente e uma diaginal quando houver uma peça rival");
+//         break; 
+//    default:
+//         console.log("Peça inválida");
+// }    
+
+// let nota = 99;
+
+// if(nota > 100 || nota < 0) {
+//     console.log("Erro")
+// } else if(nota >= 90) {
+//     console.log("A")
+// } else if(nota >= 80) {
+//     console.log("B")
+// } else if(nota >= 70) {
+//     console.log("C")
+// } else if(nota >= 60) {
+//     console.log("D")
+// } else if(nota >= 50) {
+//     console.log("E")
+// } else if(nota < 50) {
+//     console.log("F")
+// }
