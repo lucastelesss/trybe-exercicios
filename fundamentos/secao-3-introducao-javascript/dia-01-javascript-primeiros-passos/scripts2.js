@@ -92,3 +92,11 @@ let peca = "CAVALO";
 // } else if(nota < 50) {
 //     console.log("F")
 // }
+
+const n1 = 5;
+const n2 = 7;
+const n3 = 8;
+
+if(n1 % 2 == 0 || n2 % 2 == 0 || n3 % 2 == 0) {
+    console.log()
+}
