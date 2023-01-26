@@ -49,11 +49,11 @@
 
 // Adição
 
-function somaValores(a, b) {
-    return a + b
-}
+// function somaValores(a, b) {
+//     return a + b
+// }
 
-console.log(somaValores(10, 5))
+// console.log(somaValores(10, 5))
 
 
 
@@ -97,3 +97,17 @@ console.log(somaValores(10, 5))
 // }
 
 // console.log(modulo(5, 2));
+
+//Faça um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
+
+function numeroMaior(n1, n2) {
+    if(n1>n2) {
+        return "O número " + n1 + " é maior que " + n2 + "."
+    } else if(n2>n1) {
+        return "O número " + n1 + " é menor que " + n2 + "."
+    } else {
+        return "Os números são iguais"
+    }
+}
+
+console.log(numeroMaior(8, 8));
