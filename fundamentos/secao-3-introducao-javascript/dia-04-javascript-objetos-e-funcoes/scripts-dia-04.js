@@ -100,14 +100,37 @@
 
 //Faça um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
 
-function numeroMaior(n1, n2) {
-    if(n1>n2) {
-        return "O número " + n1 + " é maior que " + n2 + "."
-    } else if(n2>n1) {
-        return "O número " + n1 + " é menor que " + n2 + "."
-    } else {
-        return "Os números são iguais"
-    }
-}
+// function numeroMaior(n1, n2) {
+//     if(n1>n2) {
+//         return "O número " + n1 + " é maior que " + n2 + "."
+//     } else if(n2>n1) {
+//         return "O número " + n1 + " é menor que " + n2 + "."
+//     } else {
+//         return "Os números são iguais"
+//     }
+// }
 
-console.log(numeroMaior(8, 8));
+// console.log(numeroMaior(8, 8));
+
+
+//Faça um programa que retorne o maior de três números. Defina, no começo do programa, três constantes com os valores que serão comparados.
+
+// function maiorDeTresNumeros(n1, n2, n3) {
+//     if(n1 > n2 && n1 > n3) {
+//         return "O número " + n1 + " é o maior dos três números."
+//     } else if(n2 > n1 && n2 > n3) {
+//         return "O número " + n2 + " é o maior dos três números"
+//     } else if(n3 > n2 && n3 > n1) {
+//         return "O número " + n3 + " é o maior dos três números"
+//     } else {
+//         return "Os três números são iguais"
+//     }
+// }
+
+// console.log(maiorDeTresNumeros(7, 7, 7))
+
+
+
+//Faça um programa que, dado um valor recebido como parâmetro, retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem positivo e nem negativo retorne “zero”.
+
+function
