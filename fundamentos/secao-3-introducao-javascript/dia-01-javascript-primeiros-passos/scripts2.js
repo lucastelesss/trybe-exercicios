@@ -96,15 +96,27 @@ let peca = "CAVALO";
 
 // Há um par entre nós:
 
-const n1 = 5;
-const n2 = 7;
-const n3 = 8;
+// const n1 = 5;
+// const n2 = 7;
+// const n3 = 8;
 
-let nuPar = false;
+// let nuPar = false;
 
-if(n1 % 2 == 0 || n2 % 2 == 0 || n3 % 2 == 0) {
-    console.log(false)
-} else {
-    console.log(true);
+// if(n1 % 2 == 0 || n2 % 2 == 0 || n3 % 2 == 0) {
+//     console.log(false)
+// } else {
+//     console.log(true);
+// } 
+
+const CustoProduto = 10;
+const ValorDaVenda = 20;
+let lucro = ((ValorDaVenda - CustoProduto) * 80) / 100;
+let quantidadeVendidas = 0;
+let lucroFInal = lucro * quantidadeVendidas
+
+if(quantidadeVendidas >= 1000) {
+    console.log('O lucro da venda de mil produtos é de ' + lucroFInal)
+} else if(quantidadeVendidas <= 0 || lucro <= 0 || lucroFInal >= 0 ) {
+    console.log("Erro")
 }
 
