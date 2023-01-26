@@ -93,10 +93,18 @@ let peca = "CAVALO";
 //     console.log("F")
 // }
 
+
+// Há um par entre nós:
+
 const n1 = 5;
 const n2 = 7;
 const n3 = 8;
 
+let nuPar = false;
+
 if(n1 % 2 == 0 || n2 % 2 == 0 || n3 % 2 == 0) {
-    console.log()
+    console.log(false)
+} else {
+    console.log(true);
 }
+
