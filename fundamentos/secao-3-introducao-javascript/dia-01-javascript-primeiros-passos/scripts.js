@@ -78,19 +78,20 @@
 //     console.log("FINALMENTE, descanso merecido UwU")
 // }
 
-let num1 = 7;
-let num2 = 5;
+// let num1 = 7;
+// let num2 = 5;
 
-if (num1 == num2) {
-    console.log(num1 + num2)
-} else {
-    console.log(num1 * num2)
-} 
+// if (num1 == num2) {
+//     console.log(num1 + num2)
+// } else {
+//     console.log(num1 * num2)
+// } 
 
 // Utilize if/else para escrever um código que, dado um salário bruto, calcule o líquido a ser recebido.
 
-// Salário bruto - INSS e - IR.
-let salarioBruto = 3000
+// Salário bruto - INSS e - IR
+
+let salarioBruto = 4000;
 let salarioDeduzidoINSS = 0;
 
 let inss8 = (salarioBruto * (8/100))
@@ -98,7 +99,7 @@ let inss9 = (salarioBruto * (9/100))
 let inss11 = (salarioBruto * (11/100))
 let inssMaximo = 570.88
 
-
+let salarioLiquido = 0;
 
 if(salarioBruto <= 1556.94) {
     salarioDeduzidoINSS = salarioBruto - inss8
@@ -111,3 +112,23 @@ if(salarioBruto <= 1556.94) {
     salarioDeduzidoINSS = salarioBruto - inssMaximo
 }
 
+console.log(salarioDeduzidoINSS)
+
+let ir75 = (salarioDeduzidoINSS * (7.5/100))
+let ir15 = (salarioDeduzidoINSS * (15/100))
+let ir225 = (salarioDeduzidoINSS * (22.5/100))
+let irMaximo = (salarioDeduzidoINSS * (27.5/100))
+
+if(salarioDeduzidoINSS <= 1903.98) {
+    salarioLiquido = salarioDeduzidoINSS
+} else if(salarioDeduzidoINSS <= 2826.65) {
+    salarioLiquido = salarioDeduzidoINSS - (ir75 - 142.80)
+} else if(salarioDeduzidoINSS <= 3751.05) {
+    salarioLiquido = salarioDeduzidoINSS - (ir15 - 354.80)
+} else if(salarioDeduzidoINSS <= 4664.68) {
+    salarioLiquido = salarioDeduzidoINSS - (ir225 - 636.13)
+} else {
+    salarioLiquido = salarioDeduzidoINSS - (irMaximo - 869.36)
+}
+
+console.log(salarioLiquido);
