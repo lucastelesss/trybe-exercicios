@@ -86,3 +86,28 @@ if (num1 == num2) {
 } else {
     console.log(num1 * num2)
 } 
+
+// Utilize if/else para escrever um código que, dado um salário bruto, calcule o líquido a ser recebido.
+
+// Salário bruto - INSS e - IR.
+let salarioBruto = 3000
+let salarioDeduzidoINSS = 0;
+
+let inss8 = (salarioBruto * (8/100))
+let inss9 = (salarioBruto * (9/100))
+let inss11 = (salarioBruto * (11/100))
+let inssMaximo = 570.88
+
+
+
+if(salarioBruto <= 1556.94) {
+    salarioDeduzidoINSS = salarioBruto - inss8
+
+} else if(salarioBruto <= 2594.92) {
+    salarioDeduzidoINSS = salarioBruto - inss9
+} else if(salarioBruto <= 5189.82) {
+    salarioDeduzidoINSS = salarioBruto - inss11
+} else {
+    salarioDeduzidoINSS = salarioBruto - inssMaximo
+}
+
